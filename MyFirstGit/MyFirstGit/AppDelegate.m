@@ -17,7 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UIView *viee = [[UIView alloc] init];
+
     viee.frame = CGRectMake(100, 100, 200, 300);
+
+    viee.backgroundColor = [UIColor blackColor];
+
     // Override point for customization after application launch.
     return YES;
 }
